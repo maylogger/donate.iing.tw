@@ -124,7 +124,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
-@font-face { font-family: "icomoon"; src: url("/webfont/icomoon.eot?-dczghy"); src: url("/webfont/icomoon.eot?#iefix-dczghy") format("embedded-opentype"), url("/webfont/icomoon.woff?-dczghy") format("woff"), url("/webfont/icomoon.ttf?-dczghy") format("truetype"), url("/webfont/icomoon.svg?-dczghy#icomoon") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "DINWebPro"; src: url("/webfont/din.woff") format("woff"); }
 
 * html { font-size: 100%; }
 
@@ -211,7 +211,7 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #ccc
 .hero .donate .donate-item-list .item:nth-child(7) { background-color: rgba(59, 153, 72, 0.9); }
 .hero .donate .donate-item-list .item:nth-child(8) { background-color: rgba(42, 144, 75, 0.9); }
 .hero .donate .donate-item-list .description { font-size: 15px; line-height: 24px; font-weight: bold; color: rgba(255, 255, 255, 0.75); }
-.hero .donate .donate-item-list .donate-amount { display: -moz-inline-stack; display: inline-block; vertical-align: middle; font-size: 32px; line-height: 36px; }
+.hero .donate .donate-item-list .donate-amount { display: -moz-inline-stack; display: inline-block; vertical-align: middle; font-size: 32px; line-height: 1; font-family: "DINWebPro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; letter-spacing: -1px; position: relative; top: 3px; }
 .hero .donate .custom-donate-amount input[type="tel"] { margin: 0; padding: 0; border: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: calc(75% - 4px); height: 48px; margin: 2px; padding: 10px; font-size: 18px; line-height: 24px; background-color: rgba(0, 0, 0, 0.1); border: 2px solid transparent; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; -webkit-transition: background-color 0.25s; -moz-transition: background-color 0.25s; -o-transition: background-color 0.25s; transition: background-color 0.25s; -webkit-appearance: none; }
 .hero .donate .custom-donate-amount input[type="tel"]:focus { outline: none; border: 2px solid rgba(0, 0, 0, 0.1); background-color: rgba(255, 255, 255, 0.75); }
 .hero .donate .custom-donate-amount input[type="tel"]::-webkit-outer-spin-button, .hero .donate .custom-donate-amount input[type="tel"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
@@ -232,7 +232,7 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #ccc
   .hero .donate .title { margin: 0 0 18px auto; } }
 @media (min-width: 71em) { .hero .container { min-height: 720px; height: 100vh; }
   .hero .donate { width: 55%; }
-  .hero .donate .donate-item-list .item { overflow: hidden; width: calc(25% - 4px); padding: 12px; }
+  .hero .donate .donate-item-list .item { overflow: hidden; width: calc(25% - 4px); padding: 12px 0; }
   .hero .donate .donate-item-list .item:nth-child(1) { color: #bec503; background-color: rgba(255, 255, 255, 0.75); }
   .hero .donate .donate-item-list .item:nth-child(1):hover { background-color: #cad203; }
   .hero .donate .donate-item-list .item:nth-child(2) { color: #accc18; background-color: rgba(255, 255, 255, 0.75); }
@@ -249,10 +249,10 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #ccc
   .hero .donate .donate-item-list .item:nth-child(7):hover { background-color: #3b9948; }
   .hero .donate .donate-item-list .item:nth-child(8) { color: #2a904b; background-color: rgba(255, 255, 255, 0.75); }
   .hero .donate .donate-item-list .item:nth-child(8):hover { background-color: #2a904b; }
-  .hero .donate .donate-item-list .item .donate-amount { position: relative; top: 15px; -webkit-transition: top 0.25s, color 0.25s; -moz-transition: top 0.25s, color 0.25s; -o-transition: top 0.25s, color 0.25s; transition: top 0.25s, color 0.25s; }
-  .hero .donate .donate-item-list .item .description { position: relative; top: 68px; -webkit-transition: top 0.25s, color 0.25s; -moz-transition: top 0.25s, color 0.25s; -o-transition: top 0.25s, color 0.25s; transition: top 0.25s, color 0.25s; }
-  .hero .donate .donate-item-list .item:hover .donate-amount { top: 0; color: white; }
-  .hero .donate .donate-item-list .item:hover .description { top: 0; color: white; } }
+  .hero .donate .donate-item-list .item .donate-amount { position: relative; top: 15px; -webkit-transition: top 0.2s, color 0.2s; -moz-transition: top 0.2s, color 0.2s; -o-transition: top 0.2s, color 0.2s; transition: top 0.2s, color 0.2s; }
+  .hero .donate .donate-item-list .item .description { position: relative; top: 68px; -webkit-transition: top 0.2s, color 0.2s; -moz-transition: top 0.2s, color 0.2s; -o-transition: top 0.2s, color 0.2s; transition: top 0.2s, color 0.2s; }
+  .hero .donate .donate-item-list .item:hover .donate-amount { top: 5px; color: white; }
+  .hero .donate .donate-item-list .item:hover .description { top: 1px; color: white; } }
 
 .postal-remi { margin-top: 36px; margin-bottom: 36px; }
 .postal-remi .content { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; max-width: 600px; margin: 0 auto; padding: 0 24px; font-weight: bold; }
