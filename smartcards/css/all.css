@@ -380,6 +380,10 @@ body { background-color: #183840; position: relative; }
         -webkit-transform: scale(1)
     }
 }  
+
+.custom-donate-amount label{
+  cursor:pointer;
+}
 /* TQ end */
 
 .hero .donate .title { margin: 0 18px 18px auto; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('../images/office-donate.png?1432308050'); background-repeat: no-repeat; background-position: 50% 50%; width: 211px; height: 72px; background-image: none, url('../images/office-donate.svg?1432308050'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
