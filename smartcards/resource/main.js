@@ -512,7 +512,7 @@
 	    data["sameAddr"] = this.state.sameAddr;
 	    data["sameUser"] = this.state.sameUser;
 
-	    $.post("/api/donate-1", data, function (res) {
+	    $.post("http://52.68.16.72/api/donate-1", data, function (res) {
 	      _this.setState({ _post: res }, function () {
 	        React.findDOMNode(_this.refs.form).submit();
 	      });
