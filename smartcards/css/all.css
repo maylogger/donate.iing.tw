@@ -428,6 +428,7 @@ body { background-color: #183840; position: relative; }
 
 	.card2-thumbnail{
 		margin-left:50px;
+
 	}
 }
 
@@ -450,15 +451,16 @@ body { background-color: #183840; position: relative; }
 	}
 
 	.donate-card-container .donate-card{
-	  width:100%;max-width:250px;
+	  width:100%;max-width:320px;
 	}
 
 	.donate-card2{
 	  width:100%;
 	}
-	
+
 	.card2-thumbnail{
 		margin-left:0px;
+		width:100%;
 	}	
 }
 
