@@ -571,7 +571,7 @@
 	      { className: "custom-donate-amount" },
 	      React.createElement(
 	        "form",
-	        { ref: "form", action: "https://capi.pay2go.com/MPG/mpg_gateway", method: "POST" },
+	        { ref: "form", action: "https://api.pay2go.com/MPG/mpg_gateway", method: "POST" },
 	        inputs,
 	        React.createElement(
 	          "p",
