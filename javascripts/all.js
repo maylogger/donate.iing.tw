@@ -1,17 +1,3 @@
-(function() {
-  var $canvas, $container;
-
-  $canvas = document.getElementById('canvas');
-
-  $container = document.querySelectorAll('.hero')[0];
-
-  new Canvas({
-    canvas: $canvas,
-    container: $container
-  });
-
-}).call(this);
-
 if(Modernizr.csstransitions && !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
   var doc = $(document);
@@ -72,3 +58,23 @@ $("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
+
+if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  if ( $('.donate-form').length != 0 ) {
+    $('.donate-form').addClass('desktop');
+  }
+  if ( $('.barcode-content').length != 0 ) {
+    $('.barcode-content').addClass('desktop');
+  }
+}
+
+if ($('.select-item').length != 0) {
+  $('.sign-select .select-item').click(function(){
+    $('.sign-select .select-item').removeClass('active');
+    $(this).addClass('active');
+  });
+  $('.method-select .select-item').click(function(){
+    $('.method-select .select-item').removeClass('active');
+    $(this).addClass('active');
+  });
+}

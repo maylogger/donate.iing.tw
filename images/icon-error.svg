@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M9.57223071,12 L3.50280748,5.93057677 C2.83239751,5.2601668 2.83239751,4.17321746 3.50280748,3.50280748 C4.17321746,2.83239751 5.2601668,2.83239751 5.93057677,3.50280748 L12,9.57223071 L18.0694232,3.50280748 C18.7398332,2.83239751 19.8267825,2.83239751 20.4971925,3.50280748 C21.1676025,4.17321746 21.1676025,5.2601668 20.4971925,5.93057677 L14.4277693,12 L20.4971925,18.0694232 C21.1676025,18.7398332 21.1676025,19.8267825 20.4971925,20.4971925 C19.8267825,21.1676025 18.7398332,21.1676025 18.0694232,20.4971925 L12,14.4277693 L5.93057677,20.4971925 C5.2601668,21.1676025 4.17321746,21.1676025 3.50280748,20.4971925 C2.83239751,19.8267825 2.83239751,18.7398332 3.50280748,18.0694232 L9.57223071,12 Z" id="Shape" fill="#C9534A" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>
