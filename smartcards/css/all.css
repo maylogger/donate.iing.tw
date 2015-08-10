@@ -258,7 +258,7 @@ body { background-color: #183840; position: relative; }
 .event-switcher .smartcards-entrance:hover { background-color: #00414d; }
 .event-switcher .title { font-size: 15px; line-height: 24px; }
 .event-switcher .title .bold { font-weight: bold; }
-.event-switcher .title .break { display: block; }
+.event-switcher .title .break { display: inline-block; }
 @media (min-width: 47em) { .event-switcher .donate-entrance, .event-switcher .smartcards-entrance { padding: 18px; }
   .event-switcher .title { font-size: 18px; line-height: 24px; }
   .event-switcher .title .break { display: inline-block; } }
