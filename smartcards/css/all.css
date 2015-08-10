@@ -227,6 +227,9 @@ body { background-color: #183840; position: relative; }
 .donate-wording{
   padding-left:200px;float:left;width:50%;
 }
+.donate-wording strong{
+  color:#122200;
+}
 
 .donate-card-container{
   padding-left:50px;padding-top:22px;float:left;width:25%;
