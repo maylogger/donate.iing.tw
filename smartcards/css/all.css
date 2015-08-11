@@ -849,6 +849,40 @@ table th[class*="col-"] {
   .sameUser{
     display:block;
   }
+
+  .table-record tr{
+    border-top:6px solid black;
+  }
+  .table-record td{
+    float:left;
+    width:100%;
+  }
+
+  .table-record .order-header{
+    display:none;
+  }
+
+  .table-record .orderNo:before{
+    content:"活動編號:";
+  }
+
+  .table-record .orderDetail:before{
+    content:"目前進度:";
+  }
+
+  .table-record .orderTime:before{
+    content:"活動時間:"; 
+  }
+
+  .table-record .orderStatus:before{
+    content:"活動狀態:";
+  }
+  .table-record .orderE:before{
+    content:"悠遊卡數量:";
+  }
+  .table-record .orderT:before{
+    content:"一卡通數量:";
+  }
 }
 
 .end-sticker { position: absolute; z-index: 100; bottom: -48px; left: 12px; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/sticker.png?1439202147'); background-repeat: no-repeat; background-position: 50% 50%; width: 140px; height: 138px; background-image: none, url('/images/sticker.svg?1439202147'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
