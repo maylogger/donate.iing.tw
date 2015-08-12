@@ -258,7 +258,7 @@ form { margin-bottom: 48px; }
 .btn_outline-primary:hover { border-color: #50b584; background-color: #50b584; color: white; }
 .btn_outline-primary:disabled, .btn_outline-primary.is-disabled { color: #999999; border-color: #f1f1f1; background-color: transparent; }
 
-.event-switcher { background-color: #00343e; }
+.event-switcher { background-color: #f3f6f3; }
 .event-switcher:after { content: ""; display: table; clear: both; }
 .event-switcher .donate-entrance, .event-switcher .smartcards-entrance { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; width: 50%; padding: 12px; text-align: center; }
 .event-switcher .donate-entrance:hover, .event-switcher .smartcards-entrance:hover { text-decoration: none; }
@@ -537,8 +537,8 @@ form { margin-bottom: 48px; }
 .page-inner.index { padding-bottom: 0; }
 .page-inner.index:before, .page-inner.index:after { display: none; }
 
-.end-sticker { position: absolute; bottom: 12px; right: 12px; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/sticker.png?1439202147'); background-repeat: no-repeat; background-position: 50% 50%; width: 140px; height: 138px; background-image: none, url('/images/sticker.svg?1439202147'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
-@media (min-width: 71em) { .end-sticker { top: 48px; right: 48px; } }
+.end-sticker { position: absolute; z-index: 1000; bottom: 72px; right: 12px; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/sticker.png?1439202147'); background-repeat: no-repeat; background-position: 50% 50%; width: 140px; height: 138px; background-image: none, url('/images/sticker.svg?1439202147'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
+@media (min-width: 47em) { .end-sticker { top: 48px; right: 48px; } }
 
 .donate-index:after { content: ""; display: table; clear: both; }
 .donate-index .donate-entrance, .donate-index .smartcards-entrance { position: relative; display: block; }
@@ -553,16 +553,32 @@ form { margin-bottom: 48px; }
 .donate-index .donate-content .title { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/index-donate-title.png?1439133360'); background-repeat: no-repeat; background-position: 50% 50%; width: 210px; height: 70px; background-image: none, url('/images/index-donate-title.svg?1439133360'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
 .donate-index .smartcards-entrance { background-image: url("/images/index-smartcards-background.jpg"); background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .donate-index .smartcards-entrance .title { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/index-smartcards-title.png?1439133360'); background-repeat: no-repeat; background-position: 50% 50%; width: 220px; height: 71px; background-image: none, url('/images/index-smartcards-title.svg?1439133360'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
+.donate-index .smartcards-countdown { position: absolute; bottom: 0; left: 0; right: 0; padding: 6px 24px; color: #212121; background-color: rgba(255, 255, 255, 0.9); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
+.donate-index .smartcards-countdown .countdown-title { margin-top: 12px; font-size: 15px; line-height: 24px; }
+.donate-index .smartcards-countdown .countdown-timer { font-size: 48px; line-height: 56px; font-family: "DINWebPro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; letter-spacing: -1px; }
+.donate-index .smartcards-countdown .countdown-timer .number { display: inline-block; margin-right: 9px; }
+.donate-index .smartcards-countdown .countdown-timer .timer-unit { display: inline-block; margin-right: 9px; font-size: 16px; line-height: 24px; }
+.donate-index .smartcards-countdown .countdown-timer .finish { font-size: 36px; line-height: 56px; font-weight: bold; color: #e65e50; }
 @media (min-width: 47em) { .donate-index .title { font-size: 30px; line-height: 36px; }
   .donate-index .donate-content, .donate-index .smartcards-content { padding: 48px 48px 284px; }
-  .donate-index .donate-content { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; } }
+  .donate-index .donate-content { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+  .donate-index .smartcards-countdown { bottom: 48px; left: 48px; right: auto; padding: 18px 24px; }
+  .donate-index .smartcards-countdown .countdown-title { margin-bottom: 12px; font-size: 16px; line-height: 24px; }
+  .donate-index .smartcards-countdown .countdown-timer { font-size: 56px; line-height: 72px; }
+  .donate-index .smartcards-countdown .countdown-timer .timer-unit { font-size: 18px; line-height: 24px; }
+  .donate-index .smartcards-countdown .countdown-timer .finish { font-size: 48px; line-height: 72px; } }
 @media (min-width: 1023px) { .donate-index .title { font-size: 34px; line-height: 42px; }
   .donate-index .donate-entrance { float: left; width: 50%; }
   .donate-index .smartcards-entrance { float: right; width: 50%; }
   .donate-index .donate-content, .donate-index .smartcards-content { max-width: 960px; height: 100vh; padding: 56px; }
   .donate-index .donate-content { margin: 0 0 0 auto; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
-  .donate-index .smartcards-content { margin: 0 auto 0 0; } }
-@media screen and (device-aspect-ratio: 40 / 71) { .donate-index .donate-content, .donate-index .smartcards-content { min-height: 284px; } }
+  .donate-index .smartcards-content { margin: 0 auto 0 0; }
+  .donate-index .smartcards-countdown { bottom: 56px; left: 56px; padding: 24px 32px; }
+  .donate-index .smartcards-countdown .countdown-title { margin-bottom: 24px; font-size: 18px; line-height: 24px; }
+  .donate-index .smartcards-countdown .countdown-timer { font-size: 72px; line-height: 72px; }
+  .donate-index .smartcards-countdown .countdown-timer .timer-unit { font-size: 24px; line-height: 48px; }
+  .donate-index .smartcards-countdown .countdown-timer .finish { font-size: 64px; line-height: 72px; } }
+@media screen and (device-aspect-ratio: 40 / 71) { .donate-index .donate-content, .donate-index .smartcards-content { min-height: 360px; } }
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) { .donate-index .donate-content, .donate-index .smartcards-content { min-height: 384px; } }
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) { .donate-index .donate-content, .donate-index .smartcards-content { min-height: 512px; } }
 
