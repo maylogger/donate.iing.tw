@@ -1,4 +1,4 @@
-$('#countdown-timer').countdown('2015/08/14 12:00').on('update.countdown', function(event) {
+$('#countdown-timer').countdown('2015/08/24 12:00').on('update.countdown', function(event) {
   var totalHours = event.offset.totalDays * 24 + event.offset.hours;
   var $this = $(this).html(event.strftime(''
     + '<span class="number">' + totalHours + '</span><span class="timer-unit">時</span>'
