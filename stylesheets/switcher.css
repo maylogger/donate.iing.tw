@@ -195,7 +195,7 @@ body { background-color: #183840; position: relative; }
 
 .event-switcher { background-color: #f3f6f3; }
 .event-switcher:after { content: ""; display: table; clear: both; }
-.event-switcher .donate-entrance, .event-switcher .smartcards-entrance, .event-switcher .daebyday-entrance { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; width: 50%; padding: 12px 3px; text-align: center; }
+.event-switcher .donate-entrance, .event-switcher .smartcards-entrance, .event-switcher .daebyday-entrance { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; width: 33.333%; padding: 12px 3px; text-align: center; }
 .event-switcher .donate-entrance:hover, .event-switcher .smartcards-entrance:hover, .event-switcher .daebyday-entrance:hover { text-decoration: none; }
 .event-switcher .daebyday-entrance { float: left; color: white; background-color: #50b584; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
 .event-switcher .daebyday-entrance:hover { background-color: #5bba8c; }
