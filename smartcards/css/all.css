@@ -887,5 +887,6 @@ table th[class*="col-"] {
 }
 
 .end-sticker { position: absolute; z-index: 100; bottom: -48px; left: 12px; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/sticker.png?1439202147'); background-repeat: no-repeat; background-position: 50% 50%; width: 140px; height: 138px; background-image: none, url('/images/sticker.svg?1439202147'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
+.end-sticker.wave-two { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/sticker-w2.png?1441788544'); background-repeat: no-repeat; background-position: 50% 50%; width: 140px; height: 138px; background-image: none, url('/images/sticker-w2.svg?1441788544'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
 @media (min-width: 500px) { .end-sticker { top: 12px; bottom: auto; left: auto; right: 12px; } }
 @media (min-width: 71em) { .end-sticker { top: 48px; bottom: auto; left: auto; right: 96px; } }
