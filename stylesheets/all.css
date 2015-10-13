@@ -263,7 +263,7 @@ form { margin-bottom: 48px; }
 .event-switcher .donate-entrance, .event-switcher .smartcards-entrance, .event-switcher .daebyday-entrance { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; width: 33.333%; padding: 12px 3px; text-align: center; }
 .event-switcher .donate-entrance:hover, .event-switcher .smartcards-entrance:hover, .event-switcher .daebyday-entrance:hover { text-decoration: none; }
 .event-switcher .daebyday-entrance { float: left; color: white; background-color: #829235; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
-.event-switcher .daebyday-entrance:hover { background-color: #95A34E; }
+.event-switcher .daebyday-entrance:hover { background-color: #8c9d39; }
 .event-switcher .donate-entrance { float: left; color: #00343e; background-color: #f3f6f3; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
 .event-switcher .donate-entrance:hover { background-color: #fcfdfc; }
 .event-switcher .smartcards-entrance { float: right; color: white; background-color: #00343e; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
@@ -539,7 +539,8 @@ form { margin-bottom: 48px; }
 .page-inner.index { padding-bottom: 0; }
 .page-inner.index:before, .page-inner.index:after { display: none; }
 
-.end-sticker { position: absolute; z-index: 1000; bottom: 72px; right: 12px; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/sticker.png?1439626649'); background-repeat: no-repeat; background-position: 50% 50%; width: 140px; height: 138px; background-image: none, url('/images/sticker.svg?1439626649'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
+.end-sticker { position: absolute; z-index: 1000; bottom: 72px; right: 12px; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/sticker.png?1441788544'); background-repeat: no-repeat; background-position: 50% 50%; width: 140px; height: 138px; background-image: none, url('/images/sticker.svg?1441788544'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
+.end-sticker.wave-two { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/sticker-w2.png?1441788544'); background-repeat: no-repeat; background-position: 50% 50%; width: 140px; height: 138px; background-image: none, url('/images/sticker-w2.svg?1441788544'); background-position: center center; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; }
 @media (min-width: 47em) { .end-sticker { top: 48px; right: 48px; } }
 
 .donate-index:after { content: ""; display: table; clear: both; }
@@ -573,8 +574,8 @@ form { margin-bottom: 48px; }
 @media (min-width: 1023px) { .donate-index .title { font-size: 34px; line-height: 42px; }
   .donate-index .mainevent { float: left; width: 50%; }
   .donate-index .otherevent { float: right; width: 50%; }
-  .donate-index .donate-content, .donate-index .smartcards-content { max-width: 960px; height: 50vh; margin: 0 auto 0 0; padding: 56px; }
-  .donate-index .daebyday-content { height: 100vh; padding: 56px; }
+  .donate-index .smartcards-content, .donate-index .daebyday-content { max-width: 960px; height: 50vh; margin: 0 auto 0 0; padding: 56px; }
+  .donate-index .donate-content { height: 100vh; padding: 56px; }
   .donate-index .daebyday-countdown { bottom: 56px; left: 56px; }
   .donate-index .daebyday-countdown .countdown-title { margin-bottom: 24px; font-size: 18px; line-height: 24px; }
   .donate-index .daebyday-countdown .countdown-timer { font-size: 72px; line-height: 72px; }
