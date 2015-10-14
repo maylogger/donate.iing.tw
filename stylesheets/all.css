@@ -597,7 +597,7 @@ form { margin-bottom: 48px; }
 .equality-index { position: relative; background-color: #00333e; background: -webkit-linear-gradient(135deg, #004958 0%, #00333e 100%); background: -moz-linear-gradient(135deg, #004958 0%, #00333e 100%); background: -o-linear-gradient(135deg, #004958 0%, #00333e 100%); background: linear-gradient(135deg, #004958 0%, #00333e 100%); }
 .equality-index:after { content: ""; display: table; clear: both; }
 .equality-index .equality-logo { position: absolute; right: -7%; bottom: -7%; width: 100%; height: auto; max-width: 900px; max-height: 900px; -webkit-animation: equality-rotate 90s infinite linear; animation: equality-rotate 90s infinite linear; }
-.equality-index .equality-entrance { position: relative; display: block; pointer-events: none; }
+.equality-index .equality-entrance { position: relative; display: block; pointer-events: none; z-index: 100; }
 .equality-index .equality-entrance.active { pointer-events: visible; }
 .equality-index .equality-entrance:hover { text-decoration: none; }
 .equality-index .title { margin-top: 6px; margin-bottom: 12px; color: white; font-size: 26px; line-height: 36px; }
