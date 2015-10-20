@@ -1,0 +1,23 @@
+
+
+
+.card-img-container{
+  padding:0 20% 0 16%;
+  width:60%;
+}
+
+.card-img{
+  width:50%;float:left;
+}
+
+@media(max-width:930px){
+  .card-img-container{
+    padding-left:5%;
+  }
+}
+
+@media(max-width:900px){
+  .card-img{
+    width:auto;
+  }
+}

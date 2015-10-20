@@ -1,0 +1,15 @@
+
+
+.pagination ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pagination li {
+    display: inline-block;
+}
+
+.pagination .break a {
+    cursor: default;
+}
