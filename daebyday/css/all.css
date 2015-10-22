@@ -256,20 +256,19 @@ body { background-color: #183840; position: relative; }
 
 .event-switcher { background-color: #f3f6f3; }
 .event-switcher:after { content: ""; display: table; clear: both; }
-.event-switcher .donate-entrance, .event-switcher .smartcards-entrance, .event-switcher .daebyday-entrance { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; width: 33.333%; padding: 12px 3px; text-align: center; }
-.event-switcher .donate-entrance:hover, .event-switcher .smartcards-entrance:hover, .event-switcher .daebyday-entrance:hover { text-decoration: none; }
-.event-switcher .daebyday-entrance { float: left; color: white; background-color: #829235; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
-.event-switcher .daebyday-entrance:hover { background-color: #95A34E; }
-.event-switcher .donate-entrance { float: left; color: #00343e; background-color: #f3f6f3; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
-.event-switcher .donate-entrance:hover { background-color: #fcfdfc; }
-.event-switcher .smartcards-entrance { float: right; color: white; background-color: #00343e; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
-.event-switcher .smartcards-entrance:hover { background-color: #00414d; }
-.event-switcher .title { font-size: 11px; line-height: 18px; }
+.event-switcher .donate-index-page, .event-switcher .tablemat-entrance { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; width: 50%; padding: 12px 3px; text-align: center; }
+.event-switcher .donate-index-page:hover, .event-switcher .tablemat-entrance:hover { text-decoration: none; }
+.event-switcher .donate-index-page { float: left; color: #00343e; background-color: #c5dd50; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
+.event-switcher .donate-index-page:hover { background-color: #c9df5d; }
+.event-switcher .tablemat-entrance { float: right; color: white; background-color: #58483c; -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -o-transition: background-color 0.5s; transition: background-color 0.5s; }
+.event-switcher .tablemat-entrance:hover { background-color: #614f42; }
+.event-switcher .title { font-size: 13px; line-height: 18px; }
 .event-switcher .title .bold { font-weight: bold; }
 .event-switcher .title .break { display: block; }
-@media (min-width: 47em) { .event-switcher .donate-entrance, .event-switcher .smartcards-entrance, .event-switcher .daebyday-entrance { padding: 18px; }
+@media (min-width: 47em) { .event-switcher .donate-index-page, .event-switcher .tablemat-entrance { padding: 18px; }
   .event-switcher .title { font-size: 16px; line-height: 24px; }
   .event-switcher .title .break { display: block; } }
+
 
 .spinner {
     width: 40px;
